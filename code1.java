@@ -5,6 +5,8 @@ public class code1 {
     
     
     public static void main(String[] args) {
-    System.out.println("Hello!");    
+        Set<Integer> set = new HashSet<>();
+        set.add(1);
+        System.out.println(set.size());    
     }
 }
